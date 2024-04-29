@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UDLModbus - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"Release/Modbus.res" /i "ModbusRes" /d "NDEBUG" "C:\dev\udlmodbus\ModbusRes\Modbus.rc"" 
+Creating temporary file "C:\DOCUME~1\SIMONH~1\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /FR"Release/" /Fp"Release/UDLModbus.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\dev\udlmodbus\crc16.cpp"
+"C:\dev\udlmodbus\LocalModbus.cpp"
+"C:\dev\udlmodbus\modbus.cpp"
+"C:\dev\udlmodbus\PerformanceCounter.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SIMONH~1\LOCALS~1\Temp\RSP19.tmp" 
+Creating temporary file "C:\DOCUME~1\SIMONH~1\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Release/UDLMbus.pdb" /machine:I386 /out:"Release/UDLMbus.dll" /implib:"Release/UDLMbus.lib" 
+.\Release\crc16.obj
+.\Release\LocalModbus.obj
+.\Release\modbus.obj
+.\Release\PerformanceCounter.obj
+.\Release\Modbus.res
+]
+Creating command line "link.exe @C:\DOCUME~1\SIMONH~1\LOCALS~1\Temp\RSP1A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+crc16.cpp
+LocalModbus.cpp
+C:\dev\udlmodbus\LocalModbus.h(23) : warning C4275: non dll-interface class 'CModbus' used as base for dll-interface class 'CLocalModbus'
+        C:\dev\udlmodbus\modbus.h(59) : see declaration of 'CModbus'
+C:\dev\udlmodbus\LocalModbus.h(205) : warning C4251: 'm_crc' : class 'CRC16' needs to have dll-interface to be used by clients of class 'CLocalModbus'
+        C:\dev\udlmodbus\crc16.h(12) : see declaration of 'CRC16'
+C:\dev\udlmodbus\LocalModbus.h(212) : warning C4251: 'm_abyBuffer' : class 'CByteArray' needs to have dll-interface to be used by clients of class 'CLocalModbus'
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afxcoll.h(65) : see declaration of 'CByteArray'
+C:\dev\udlmodbus\LocalModbus.h(219) : warning C4251: 'LogFile' : class 'CStdioFile' needs to have dll-interface to be used by clients of class 'CLocalModbus'
+        C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE\afx.h(1309) : see declaration of 'CStdioFile'
+C:\dev\udlmodbus\LocalModbus.cpp(2390) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(2436) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(2624) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(2670) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(2715) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(2761) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(2805) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(2854) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(2899) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(2942) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(2985) : warning C4290: C++ Exception Specification ignored
+C:\dev\udlmodbus\LocalModbus.cpp(3028) : warning C4290: C++ Exception Specification ignored
+modbus.cpp
+PerformanceCounter.cpp
+Linking...
+   Creating library Release/UDLMbus.lib and object Release/UDLMbus.exp
+Creating command line "bscmake.exe /nologo /o"Release/UDLModbus.bsc"  .\Release\crc16.sbr .\Release\LocalModbus.sbr .\Release\modbus.sbr .\Release\PerformanceCounter.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+UDLMbus.dll - 0 error(s), 16 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,106 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_MODBUS_ERR_INV_RESP "invalid returned device response"
+    IDS_MODBUS_ERR_CRC      "crc error"
+    IDS_MODBUS_ERR_WR_PORT  "Write communication error"
+    IDS_MODBUS_ERR_RD_PORT  "Read communication error"
+    IDS_MODBUS_ERR_NOT_INT  "Comm port not opened"
+    IDS_MODBUS_ERR_LOCK_TIME_OUT "Critical section lock time-out error"
+    IDS_MODBUS_ERR_EXCPTION_CODE "Modbus device return an exception code"
+    IDS_MODBUS_ERR_OK       "Ok"
+    IDS_MODBUS_ERR_TIMEOUT  "Time Out Error"
+    IDS_REMOTE_MODBUS_ERR_OVERFLOW "Buffer Overflow"
+    IDS_REMOTE_MODBUS_ERR_SOCKET_ERROR "Socket Error"
+    IDS_REMOTE_MODBUS_ERR_WR_SOCKET_ERROR "Write Socket Error"
+    IDS_REMOTE_MODBUS_ERR_RD_SOCKET_ERROR "Read Socket Error"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_REMOTE_MODBUS_ERR_SOCKET_NOT_CONNECTED "Socket not connected"
+    IDS_AUTO_ERR_SUB_OUT_OF_RANGE "Subscript out of range"
+    IDS_AUTO_ERR_TYPE_MISMATCH "Type mismatch"
+    IDS_AUTO_ERR_CONN_NOT_FOUND "Connction not found"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Portuguese (Brazil) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
